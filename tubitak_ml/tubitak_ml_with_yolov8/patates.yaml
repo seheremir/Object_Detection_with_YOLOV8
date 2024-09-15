@@ -1,0 +1,13 @@
+train: /home/seher/Desktop/Tubitak/tubitak_ml/tubitak_ml_with_yolov8/train/images
+val: /home/seher/Desktop/Tubitak/tubitak_ml/tubitak_ml_with_yolov8/valid/images
+test: /home/seher/Desktop/Tubitak/tubitak_ml/tubitak_ml_with_yolov8/test/images
+
+nc: 5
+names: ['Damaged potato', 'Defected potato', 'Diseased-fungal potato', 'Potato', 'Sprouted potato']
+
+roboflow:
+  workspace: workspace-tedkk
+  project: potato-detection-phjcg
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/workspace-tedkk/potato-detection-phjcg/dataset/3
